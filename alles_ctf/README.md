@@ -1,6 +1,6 @@
 # ALLES CTF 2020
 
-![ALLES](images/alles.png)
+![ALLES](images/alles.png =250x)
 
 # Push
 
@@ -76,7 +76,7 @@ and executing the `ps` command.
 
 With some googling, we find out it's a `Javascript Prototype Pollution` attack, that can lead us to an RCE if we combine it with the last Route.
 
-<b>First thing first, what is a Prototype Pollution ?</b>
+<b>First things first, what is a Prototype Pollution ?</b>
 
 Javascript allows ALL Object attributes to be modified, including the magic attributes like `constructor`, `prototype`, and `__proto__`. And because all objects in JS inherits from `Object`, any change in the prototype of `Object` will automatically apply to
 all future created objects.
