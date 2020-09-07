@@ -1,6 +1,6 @@
 # ALLES CTF 2020
 
-![ALLES](images/alles.png =250x)
+![ALLES](images/alles.png | width=250)
 
 # Push
 
