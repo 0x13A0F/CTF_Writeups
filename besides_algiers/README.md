@@ -347,3 +347,6 @@ Et voila
 ![memehub_flag](images/2_7.png)
 
 Flag: `shellmates{w3lc0me_2_th3_5pid3r_v3rs3}`
+
+
+I would like to thank Shellmates Club for their efforts in the organization and making these great challenges. and also for the fair-play CTF.
