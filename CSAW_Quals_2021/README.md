@@ -1,6 +1,6 @@
 # CSAW Quals 2021
 
-Today we finished playing the Quals of CSAW 2021 CTF, after 48h of hard team work, we (CyberErudites) finished **2nd** in MENA Region, and **30th** worldwide.
+Yesterday we finished playing the Quals of CSAW 2021 CTF, after 48h of hard team work, we (CyberErudites) finished **2nd** in MENA Region, and **30th** worldwide.
 
 This is a writeup for the web challenge `SCP-Terminal`
 
@@ -18,7 +18,17 @@ Little background before starting the challenge:
 The name of the challenge, comes from `SCP foundation`, which according to Wikipedia:
 
 ```
-The SCP Foundation is a fictional secret organization documented by the collaborative writing wiki project of the same name. Within the website's shared universe, the SCP Foundation is responsible for capturing and containing various paranormal, supernatural, and other mysterious phenomena unexplained by mainstream science (referred to as anomalies or SCPs), while also keeping their existence hidden from the rest of global human society. The real-world website is community-based and includes elements of many genres such as horror, science fiction, and urban fantasy.
+The SCP Foundation is a fictional secret organization
+documented by the collaborative writing wiki project of
+the same name. Within the website's shared universe, the
+SCP Foundation is responsible for capturing and containing
+various paranormal, supernatural, and other mysterious
+phenomena unexplained by mainstream science (referred to
+as anomalies or SCPs), while also keeping their existence
+hidden from the rest of global human society. The
+real-world website is community-based and includes
+elements of many genres such as horror, science fiction,
+and urban fantasy.
 ```
 
 If we go to the scp wiki (by clicking on `Explore Archive`), you'll see different type of entities (or items), each item has an ID, it starts with `SCP-` followed by a number.
@@ -116,11 +126,11 @@ We have to setup a custom htmp page, containing the redacted flag as `src`, so t
 But we get Containment breached,
 
 NO WORRIES, we just take the link of the screenshot
-and change `archive` with `site_19` because that's where contained SCPS are stored, and also we change `.png` to `.htm` (the last `l` is removed)
+and change `archive` with `site_19` because that's where contained SCPs are stored, and also we change `.png` to `.htm` (the last `l` is removed)
 
 ![scp_bad_request](img/8.png)
 
-we don't have permissions, let's this link again:
+we don't have permissions, let's send this link again:
 
 ![scp_allowed_request](img/9.png)
 
